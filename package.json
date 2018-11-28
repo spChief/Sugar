@@ -28,7 +28,8 @@
   },
   "scripts": {
     "test": "istanbul cover test/node --report=lcovonly",
-    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
+    "gulp": "gulp"
   },
   "typings": "sugar.d.ts",
   "devDependencies": {
